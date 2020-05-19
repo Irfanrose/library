@@ -1,7 +1,7 @@
 # library
 Free to USE
 
-Add it in your root build.gradle at the end of repositories:
+# Add it in your root build.gradle at the end of repositories:
 
 allprojects {
 		repositories {
@@ -16,13 +16,13 @@ allprojects {
   
   This library helps to do basic arithmetic calculations and time related calculations
   
-  For arithmetic operation call methods like below and it supports almost all data types
+ # For arithmetic operation call methods like below and it supports almost all data types
   Calc.add(param1,param2)
   Calc.sub(param1,param2)
   Calc.multiply(param1,param2)
   Calc.divide(param1,param2)
   
-  For time related calculations call methods like below
+ # For time related calculations call methods like below
   
   TimeCalc.msToMin(//millisdseconds)   //Milliseconds to Minutes
   TimeCalc.msToSec(//millisdseconds)   //Milliseconds to Seconds
